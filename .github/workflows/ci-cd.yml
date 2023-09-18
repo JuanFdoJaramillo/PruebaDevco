@@ -25,7 +25,7 @@ jobs:
       - name: Analyze code with SonarCloud
         uses: sonarsource/sonarcloud-action@main
         with:
-          projectKey: PruebaDevco
+          projectKey: JuanFdoJaramillo_PruebaDevco
           organization: juanfdojaramillo
           token: $5c79c4d2a20f222221d1a606f010a7274a5d1043
 
