@@ -31,8 +31,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t juanfdojaramillo/PruebaDevco:latest .
+          docker build -t juanfdojaramillo/pruebadevco:latest .
 
       - name: Push Docker image to DockerHub
         run: |
-          docker push juanfdojaramillo/PruebaDevco:latest
+          docker push juanfdojaramillo/pruebadevco:latest
