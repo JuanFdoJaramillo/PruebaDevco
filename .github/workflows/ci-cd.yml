@@ -23,7 +23,7 @@ jobs:
           pytest tests
 
       - name: Analyze code with SonarCloud
-        uses: sonarsource/sonarcloud-github-actio@main
+        uses: sonarsource/sonarcloud-github-action@main
         with:
           projectKey: JuanFdoJaramillo_PruebaDevco_
           organization: juanfdojaramillo
